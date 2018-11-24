@@ -1,0 +1,182 @@
+INFO:__main__:taxi is being solved by value-iteration
+INFO:__main__:Making results directory
+INFO:__main__:Running value-iteration with gamma 0.99
+INFO:policy:Running value-iteration
+INFO:policy:Value iteration running at 0
+INFO:policy:Value iteration running at 1000
+INFO:policy:Value iteration running at 2000
+INFO:policy:Value iteration running at 3000
+INFO:policy:Value-iteration converged at iteration 3270 total s 18.38012734707445
+INFO:__main__:Running value-iteration with gamma 0.9
+INFO:policy:Running value-iteration
+INFO:policy:Value iteration running at 0
+INFO:policy:Value-iteration converged at iteration 347 total s 1.8950417989399284
+INFO:__main__:Running value-iteration with gamma 0.8
+INFO:policy:Running value-iteration
+INFO:policy:Value iteration running at 0
+INFO:policy:Value-iteration converged at iteration 177 total s 0.9519559689797461
+INFO:__main__:Running value-iteration with gamma 0.7
+INFO:policy:Running value-iteration
+INFO:policy:Value iteration running at 0
+INFO:policy:Value-iteration converged at iteration 113 total s 0.6086466622073203
+INFO:__main__:Running value-iteration with gamma 0.6
+INFO:policy:Running value-iteration
+INFO:policy:Value iteration running at 0
+INFO:policy:Value-iteration converged at iteration 83 total s 0.45095979585312307
+INFO:__main__:Running value-iteration with gamma 0.5
+INFO:policy:Running value-iteration
+INFO:policy:Value iteration running at 0
+INFO:policy:Value-iteration converged at iteration 59 total s 0.31501986598595977
+main.py:62: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  rolling_score = result.sum(axis=1).rolling(window=100, center=False).mean().dropna().as_matrix()
+INFO:__main__:Making plots dir
+2018-11-16 16:58:45.284 Python[57981:12221973] ApplePersistenceIgnoreState: Existing state will not be touched. New state will be written to (null)
+INFO:__main__:taxi is being solved by policy-iteration
+INFO:__main__:Making results directory
+INFO:__main__:Running policy-iteration with gamma 0.99
+INFO:policy:Policy-Iteration at 0
+INFO:policy:Policy-Iteration at 10
+INFO:policy:Policy-Iteration converged at at iteration 16 and took 34.735353444935754
+INFO:__main__:Running policy-iteration with gamma 0.9
+INFO:policy:Policy-Iteration at 0
+INFO:policy:Policy-Iteration at 10
+INFO:policy:Policy-Iteration converged at at iteration 18 and took 3.6510012298822403
+INFO:__main__:Running policy-iteration with gamma 0.8
+INFO:policy:Policy-Iteration at 0
+INFO:policy:Policy-Iteration at 10
+INFO:policy:Policy-Iteration converged at at iteration 17 and took 1.6556255689356476
+INFO:__main__:Running policy-iteration with gamma 0.7
+INFO:policy:Policy-Iteration at 0
+INFO:policy:Policy-Iteration at 10
+INFO:policy:Policy-Iteration converged at at iteration 15 and took 0.9476697149220854
+INFO:__main__:Running policy-iteration with gamma 0.6
+INFO:policy:Policy-Iteration at 0
+INFO:policy:Policy-Iteration at 10
+INFO:policy:Policy-Iteration converged at at iteration 16 and took 0.7293313019908965
+INFO:__main__:Running policy-iteration with gamma 0.5
+INFO:policy:Policy-Iteration at 0
+INFO:policy:Policy-Iteration at 10
+INFO:policy:Policy-Iteration converged at at iteration 15 and took 0.5960600059479475
+main.py:62: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  rolling_score = result.sum(axis=1).rolling(window=100, center=False).mean().dropna().as_matrix()
+INFO:__main__:Making plots dir
+2018-11-16 16:59:32.774 Python[58027:12222524] ApplePersistenceIgnoreState: Existing state will not be touched. New state will be written to (null)
+INFO:__main__:taxi is being solved by q-learning
+INFO:__main__:Making results directory
+INFO:__main__:Running q-learning with gamma 0.99 alpha 0.8 epsilon 0.9999 epsilon_decay 0.999 init 20
+INFO:__main__:Running q-learning with gamma 0.99 alpha 0.8 epsilon 0.9999 epsilon_decay 0.999 init 0
+INFO:__main__:Running q-learning with gamma 0.99 alpha 0.8 epsilon 0.5 epsilon_decay 0.5 init 20
+INFO:__main__:Running q-learning with gamma 0.99 alpha 0.8 epsilon 0.9 epsilon_decay 0.999 init 20
+INFO:__main__:Running q-learning with gamma 0.99 alpha 0.5 epsilon 0.9999 epsilon_decay 0.999 init 20
+INFO:__main__:Running q-learning with gamma 0.9 alpha 0.8 epsilon 0.9999 epsilon_decay 0.999 init 20
+INFO:__main__:Graphing ('0.9', '0.8', '0.9999', '0.999', '20')
+INFO:__main__:episodes = 1194 time =  1.1425162765663117
+INFO:__main__:Graphing ('0.99', '0.5', '0.9999', '0.999', '20')
+INFO:__main__:episodes = 1840 time =  1.456613116664812
+INFO:__main__:Graphing ('0.99', '0.8', '0.5', '0.5', '20')
+INFO:__main__:episodes = 959 time =  0.879579019965604
+INFO:__main__:Graphing ('0.99', '0.8', '0.9', '0.999', '20')
+INFO:__main__:episodes = 1015 time =  0.9158639195375144
+INFO:__main__:Graphing ('0.99', '0.8', '0.9999', '0.999', '0')
+INFO:__main__:episodes = 652 time =  0.6378098193090409
+INFO:__main__:Graphing ('0.99', '0.8', '0.9999', '0.999', '20')
+INFO:__main__:episodes = 1004 time =  1.0470145093277097
+INFO:__main__:Graphing ('0.9', '0.8', '0.9999', '0.999', '20')
+INFO:__main__:Graphing ('0.99', '0.5', '0.9999', '0.999', '20')
+INFO:__main__:Graphing ('0.99', '0.8', '0.5', '0.5', '20')
+INFO:__main__:Graphing ('0.99', '0.8', '0.9', '0.999', '20')
+INFO:__main__:Graphing ('0.99', '0.8', '0.9999', '0.999', '0')
+INFO:__main__:Graphing ('0.99', '0.8', '0.9999', '0.999', '20')
+INFO:__main__:Graphing ('0.9', '0.8', '0.9999', '0.999', '20')
+INFO:__main__:Graphing ('0.99', '0.5', '0.9999', '0.999', '20')
+INFO:__main__:Graphing ('0.99', '0.8', '0.5', '0.5', '20')
+INFO:__main__:Graphing ('0.99', '0.8', '0.9', '0.999', '20')
+INFO:__main__:Graphing ('0.99', '0.8', '0.9999', '0.999', '0')
+INFO:__main__:Graphing ('0.99', '0.8', '0.9999', '0.999', '20')
+2018-11-16 17:00:02.474 Python[58088:12222897] ApplePersistenceIgnoreState: Existing state will not be touched. New state will be written to (null)
+INFO:__main__:frozen-lake is being solved by value-iteration
+INFO:__main__:Making results directory
+INFO:__main__:Running value-iteration with gamma 0.99
+INFO:policy:Running value-iteration
+INFO:policy:Value iteration running at 0
+INFO:policy:Value-iteration converged at iteration 996 total s 0.20462009799666703
+INFO:__main__:Running value-iteration with gamma 0.9
+INFO:policy:Running value-iteration
+INFO:policy:Value iteration running at 0
+INFO:policy:Value-iteration converged at iteration 267 total s 0.047709452919662
+INFO:__main__:Running value-iteration with gamma 0.8
+INFO:policy:Running value-iteration
+INFO:policy:Value iteration running at 0
+INFO:policy:Value-iteration converged at iteration 148 total s 0.026561727980151772
+INFO:__main__:Running value-iteration with gamma 0.7
+INFO:policy:Running value-iteration
+INFO:policy:Value iteration running at 0
+INFO:policy:Value-iteration converged at iteration 97 total s 0.016966535011306405
+INFO:__main__:Running value-iteration with gamma 0.6
+INFO:policy:Running value-iteration
+INFO:policy:Value iteration running at 0
+INFO:policy:Value-iteration converged at iteration 71 total s 0.012201354140415788
+INFO:__main__:Running value-iteration with gamma 0.5
+INFO:policy:Running value-iteration
+INFO:policy:Value iteration running at 0
+INFO:policy:Value-iteration converged at iteration 57 total s 0.010494772111997008
+2018-11-16 17:00:06.248 Python[58138:12223256] ApplePersistenceIgnoreState: Existing state will not be touched. New state will be written to (null)
+main.py:62: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  rolling_score = result.sum(axis=1).rolling(window=100, center=False).mean().dropna().as_matrix()
+INFO:__main__:Making plots dir
+INFO:__main__:frozen-lake is being solved by policy-iteration
+INFO:__main__:Making results directory
+INFO:__main__:Running policy-iteration with gamma 0.99
+INFO:policy:Policy-Iteration at 0
+INFO:policy:Policy-Iteration converged at at iteration 6 and took 0.10001256712712348
+INFO:__main__:Running policy-iteration with gamma 0.9
+INFO:policy:Policy-Iteration at 0
+INFO:policy:Policy-Iteration converged at at iteration 6 and took 0.021277825813740492
+INFO:__main__:Running policy-iteration with gamma 0.8
+INFO:policy:Policy-Iteration at 0
+INFO:policy:Policy-Iteration converged at at iteration 3 and took 0.008894144091755152
+INFO:__main__:Running policy-iteration with gamma 0.7
+INFO:policy:Policy-Iteration at 0
+INFO:policy:Policy-Iteration converged at at iteration 4 and took 0.008952631847932935
+INFO:__main__:Running policy-iteration with gamma 0.6
+INFO:policy:Policy-Iteration at 0
+INFO:policy:Policy-Iteration converged at at iteration 4 and took 0.005267755128443241
+INFO:__main__:Running policy-iteration with gamma 0.5
+INFO:policy:Policy-Iteration at 0
+INFO:policy:Policy-Iteration converged at at iteration 4 and took 0.004933007061481476
+main.py:62: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  rolling_score = result.sum(axis=1).rolling(window=100, center=False).mean().dropna().as_matrix()
+INFO:__main__:Making plots dir
+2018-11-16 17:00:15.988 Python[58177:12223479] ApplePersistenceIgnoreState: Existing state will not be touched. New state will be written to (null)
+INFO:__main__:frozen-lake is being solved by q-learning
+INFO:__main__:Making results directory
+INFO:__main__:Running q-learning with gamma 0.99 alpha 0.8 epsilon 0.9999 epsilon_decay 0.999 init 1
+INFO:__main__:Running q-learning with gamma 0.99 alpha 0.8 epsilon 0.9999 epsilon_decay 0.999 init 0
+INFO:__main__:Running q-learning with gamma 0.99 alpha 0.8 epsilon 0.5 epsilon_decay 0.5 init 1
+INFO:__main__:Running q-learning with gamma 0.99 alpha 0.8 epsilon 0.9 epsilon_decay 0.999 init 1
+INFO:__main__:Running q-learning with gamma 0.99 alpha 0.5 epsilon 0.9999 epsilon_decay 0.999 init 1
+INFO:__main__:Running q-learning with gamma 0.9 alpha 0.8 epsilon 0.9999 epsilon_decay 0.999 init 1
+INFO:__main__:Graphing ('0.9', '0.8', '0.9999', '0.999', '1')
+INFO:__main__:episodes = 4330 time =  4.236797582358122
+INFO:__main__:Graphing ('0.99', '0.5', '0.9999', '0.999', '1')
+INFO:__main__:episodes = 595 time =  0.553428623592481
+INFO:__main__:Graphing ('0.99', '0.8', '0.5', '0.5', '1')
+INFO:__main__:Graphing ('0.99', '0.8', '0.9', '0.999', '1')
+INFO:__main__:episodes = 974 time =  0.8361353795044124
+INFO:__main__:Graphing ('0.99', '0.8', '0.9999', '0.999', '0')
+INFO:__main__:episodes = 780 time =  0.6252037838567048
+INFO:__main__:Graphing ('0.99', '0.8', '0.9999', '0.999', '1')
+INFO:__main__:episodes = 1005 time =  1.036279768217355
+INFO:__main__:Graphing ('0.9', '0.8', '0.9999', '0.999', '1')
+INFO:__main__:Graphing ('0.99', '0.5', '0.9999', '0.999', '1')
+INFO:__main__:Graphing ('0.99', '0.8', '0.5', '0.5', '1')
+INFO:__main__:Graphing ('0.99', '0.8', '0.9', '0.999', '1')
+INFO:__main__:Graphing ('0.99', '0.8', '0.9999', '0.999', '0')
+INFO:__main__:Graphing ('0.99', '0.8', '0.9999', '0.999', '1')
+INFO:__main__:Graphing ('0.9', '0.8', '0.9999', '0.999', '1')
+INFO:__main__:Graphing ('0.99', '0.5', '0.9999', '0.999', '1')
+INFO:__main__:Graphing ('0.99', '0.8', '0.5', '0.5', '1')
+INFO:__main__:Graphing ('0.99', '0.8', '0.9', '0.999', '1')
+INFO:__main__:Graphing ('0.99', '0.8', '0.9999', '0.999', '0')
+INFO:__main__:Graphing ('0.99', '0.8', '0.9999', '0.999', '1')
+2018-11-16 17:01:24.071 Python[58215:12223694] ApplePersistenceIgnoreState: Existing state will not be touched. New state will be written to (null)
